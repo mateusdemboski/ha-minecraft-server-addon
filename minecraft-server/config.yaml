@@ -12,6 +12,5 @@ url: "https://github.com/itzg/docker-minecraft-server"
 ports:
   25565/tcp: 25565
 image: itzg/minecraft-server
-options:
+environment:
   EULA: TRUE
-  VERSION: "LATEST"
