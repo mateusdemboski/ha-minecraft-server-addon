@@ -14,5 +14,5 @@ ports:
 ports_description:
   25565/tcp: Standard Minecraft (Dedicated) Server
 environment:
-  EULA: TRUE
+  EULA: "true"
 image: itzg/minecraft-server
