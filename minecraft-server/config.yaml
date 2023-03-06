@@ -1,5 +1,5 @@
 name: "Minecraft Server"
-version: "1.0.0"
+version: "2023.1.0"
 slug: minecraft-server
 description: "Minecraft server with dynamic version, server types, and modpack support "
 arch:
