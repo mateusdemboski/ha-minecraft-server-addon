@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Minecraft Server Home Assistant add-on repository
+url: 'https://github.com/mateusdemboski/ha-minecraft-server-addon'
+maintainer: Awesome Maintainer <awesome@example.com>
