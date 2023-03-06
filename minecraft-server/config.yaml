@@ -1,0 +1,17 @@
+name: "Minecraft Server"
+version: "1.0.0"
+slug: minecraft-server
+description: "Minecraft server with dynamic version, server types, and modpack support "
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+url: "https://github.com/itzg/docker-minecraft-server"
+ports:
+  25565/tcp: 25565
+image: itzg/minecraft-server
+options:
+  EULA: TRUE
+  VERSION: "LATEST"
