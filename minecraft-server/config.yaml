@@ -11,6 +11,8 @@ arch:
 url: "https://github.com/itzg/docker-minecraft-server"
 ports:
   25565/tcp: 25565
-image: itzg/minecraft-server
+ports_description:
+  25565/tcp: Standard Minecraft (Dedicated) Server
 environment:
-  EULA: TRUE
+  EULA: true
+image: itzg/minecraft-server
