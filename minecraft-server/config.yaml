@@ -19,6 +19,6 @@ environment:
   EULA: "true"
 image: itzg/minecraft-server
 backup_exclude:
-  - *.jar
+  - "*.jar"
   - cache
   - logs
